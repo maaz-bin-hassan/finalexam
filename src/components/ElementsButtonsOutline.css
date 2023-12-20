@@ -1,0 +1,36 @@
+.base7 {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  border: 2px solid var(--primary);
+  box-sizing: border-box;
+}
+.base7,
+.button-text1,
+.button1 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.button-text1 {
+  top: 27.5%;
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  display: inline-block;
+}
+.button1 {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.elements-buttons-outline {
+  width: 148px;
+  height: 40px;
+  text-align: center;
+  font-size: var(--label-02-size);
+  color: var(--primary);
+  font-family: var(--label-01);
+}
